@@ -1,0 +1,132 @@
+/* { outline: 1px solid red; }*/
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #F7F4F2;
+}
+
+header {
+    height: 50px;
+}
+
+ul {
+    margin-left: auto;
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    padding: 0px 20px;
+}
+
+h1 {
+    font-size: 128px;
+    color: #896961;
+}
+
+h2 {
+    font-size: 40px;
+    color: #232322;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    color: #232322;
+}
+
+p {
+    font-size: 20px;
+    color: #232322; 
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    text-align: left;
+}
+
+nav {
+    margin-bottom: 40px;
+    width: 48%;
+    position: fixed;
+    position: relative;
+    float: right;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+nav ul li {
+    padding: 20px 40px;
+    color: #232322;
+    display: inline-block;
+}
+
+
+.bio {
+    width: 40%;
+    height: 145;
+}
+
+.location {
+    display: inline-block;
+}
+
+.projects {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.projectsImage{
+    width: 48%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#contact {
+    background-color: #4F5D61;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#contact h2 {
+    color: #F7F4F2;
+}
+
+#contact p {
+    color: #F7F4F2;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact {
+    display: inline-block
+}
+
+.icon {
+    font-display: center;
+    display: inline-block;
+}
+
+
+footer {
+    background-color: #4F5D61;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 20px 40px;
+    color: #F7F4F2;
+}
+
+footer p {
+    color: #F7F4F2;
+}
